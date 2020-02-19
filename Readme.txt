@@ -143,3 +143,6 @@ Github UPLOAD:
 109 - git add -A
 110 - git commit -m "Initial commit"
 111 - git push origin master
+112 - go to phpmyadmin adn download your sql file
+113 - add it in your folder then add it git and commit and push again (using pycharm VCS or commands
+    - (git add abc.sql, git commit -m "sql added", git push remote origin)

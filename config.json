@@ -1,0 +1,20 @@
+{
+  "params": {
+    "local_server": "True",
+    "local_uri": "mysql+pymysql://root:@localhost/cleanblog",
+    "prod_uri": "mysql+pymysql://root:@localhost/cleanblog",
+    "fb_url": "https://fb.com/m3sibti",
+    "tw_url": "https://twitter.com/m3sibti",
+    "gh_url": "https://github.com/m3sibti",
+    "blog_name": "Cleaner Blog",
+    "blog_tagline": "A blog liked by programmers",
+    "gmail_username": "m3sibti@gmail.com",
+    "gmail_pass": "Metanoia$",
+    "about_text": "Hi My name is ABC and I can do it",
+    "no_posts": 3,
+    "login_img": "login.svg",
+    "u_email": "abc@test.com",
+    "u_pass": "123",
+    "uploader_location": "E:\\0-Python\\Work\\flask\\static"
+  }
+}

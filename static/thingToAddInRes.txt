@@ -1,0 +1,9 @@
+
+DCGAN- Conclusion says that single oscilating mode comes when trained for longer but our work shows that when the discriminator performed well the generator start going
+towards worst (it start generating bad images)
+
+Results for Satellite Image Spoofing: Creating.. Chunxue Xu
+
+You can also give the heading of Training a **** instead of only results
+
+Results can also be changed to Experiments

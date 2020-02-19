@@ -140,4 +140,6 @@ Github UPLOAD:
 106 - add .gitignore and ignore folders you dont need (see them in directory)
 107 - open git bash there and type `git init`
 108 - copy link of ssh and add it to `git remote add origin -xyz-`
-109 - 
+109 - git add -A
+110 - git commit -m "Initial commit"
+111 - git push origin master

@@ -90,7 +90,7 @@ DASHBOARD:
 59 - give heading to table using h1 and br
 
 EDIT POSTS:
-60 - take button in a tag and pass {{/edit/{{post.sno}} in href for edit button
+60 - take button in a tag and pass {{/edit/{{sno}} in href for edit button
 67 - create a new template for edit.html
 68 - copy paste form from contact and change it according to your requirements
 69 - define a route for edit.html in app.py
@@ -134,17 +134,26 @@ PAGINATION:
 102 - pass these next and previous on render_temp
 103 - access these in your index.html in href of a of buttons (next and previous)
 
+MESSAGE FLASHING:
+104 - import flask flash and call flash function on submitting message by user
+105 - in .html use jinja template to retrieve message (with->if->for)
+106 - go and find flash messages from getbootstrap.com and paste it by replacing it with your message
+107 - MUST SEE (bootstrap in one video)
+    - https://www.youtube.com/watch?v=008dZPBZtLQ&list=PLu0W_9lII9ahKZ42vg2w9ERPmShYbYAB7&index=5
+
 Github UPLOAD:
-104 - Go and create repo on github
-105 - initialize it with readme while creating
-106 - add .gitignore and ignore folders you dont need (see them in directory)
-107 - open git bash there and type `git init`
-108 - copy link of ssh and add it to `git remote add origin -xyz-`
-109 - git add -A
-110 - git commit -m "Initial commit"
-111 - git push origin master
-112 - go to phpmyadmin adn download your sql file
+* - Go and create repo on github
+* - initialize it with readme while creating
+* - add .gitignore and ignore folders you dont need (see them in directory)
+* - open git bash there and type `git init`
+* - copy link of ssh and add it to `git remote add origin -xyz-`
+* - git add -A
+* - git commit -m "Initial commit"
+* - git push origin master
+* - go to phpmyadmin adn download your sql file
     - export whole db
-    - while importing first create empty database then import it
-113 - add it in your folder then add it git and commit and push again (using pycharm VCS or commands
+* - add it in your folder then add it git and commit and push again (using pycharm VCS or commands
     - (git add abc.sql, git commit -m "sql added", git push remote origin)
+* - buy domain and set your server
+    - https://www.youtube.com/watch?v=S2fAWz_rWXo&list=PLu0W_9lII9agAiWp6Y41ueUKx1VcTRxmf&index=21
+* - add css of your choice after check it from chrome inspector

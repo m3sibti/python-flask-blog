@@ -1,14 +1,23 @@
 {% extends 'layout.html' %}
 {% block body %}
     <!-- Page Header -->
+    <style>
+
+        header.masthead .page-heading,
+        header.masthead .post-heading,
+        header.masthead .site-heading {
+            padding: 80px 0 80px;
+            color: white;
+        }
+    </style>
     <header class="masthead" style="background-image: url({{ url_for('static', filename='img/home-bg.jpg') }})">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="site-heading">
-                        <h1>{{ params['blog_name'] }}</h1>
-                        <span class="subheading">{{ params['blog_tagline'] }}</span>
+                        <h1>Admin Panel</h1>
+                        <span class="subheading">Here you can Add and Edit the Posts of your choice</span>
                     </div>
                 </div>
             </div>

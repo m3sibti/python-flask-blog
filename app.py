@@ -1,7 +1,7 @@
 import math
 import os
 
-from flask import Flask, render_template, request, session, redirect
+from flask import Flask, render_template, request, session, redirect, flash
 from flask_sqlalchemy import SQLAlchemy
 from flask_mail import Mail
 from datetime import datetime
@@ -176,12 +176,12 @@ def contact():
         entry = Contacts(name=name, phone_no=phone, msg=msg, date=dt)
         db.session.add(entry)
         db.session.commit()
-
-        mail.send_message(f'New Message from {name}',
-                          sender='m3si6ti@gmail.com',
-                          recipients=[params['gmail_username']],
-                          body=msg + "\n" + phone)
-
+        # TODO remove comments after correcting  to send
+        # mail.send_message(f'New Message from {name}',
+        #                   sender='m3si6ti@gmail.com',
+        #                   recipients=[params['gmail_username']],
+        #                   body=msg + "\n" + phone)
+        flash('Thanks for your feedback. we will contact you soon', "success")
     return render_template('contact.html', params=params)
 
 
